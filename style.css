@@ -18,6 +18,13 @@ body {
   align-items: center;
 }
 
+.content-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .sans-box {
   border-radius: 20px;
   box-sizing: border-box;
@@ -29,6 +36,18 @@ body {
   max-width: 350px;
   max-height: 350px;
   transition: border-color 0.2s;
+}
+
+.ad-container {
+  width: 320px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.35);
+  box-sizing: content-box;
 }
 
 .sans-box img {
